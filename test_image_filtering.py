@@ -33,7 +33,7 @@ def medianfiltering(img):
     median=cv2.medianBlur(img,5)
     return median
 
-def gaussianfiltering(img)
+def gaussianfiltering(img):
     gauss=cv2.GaussianBlur(img,(5,5),0)
     return gauss
 
@@ -68,3 +68,4 @@ if __name__ == '__main__':
 
     # Run pipeline    
     run_pipeline(args=args)
+
